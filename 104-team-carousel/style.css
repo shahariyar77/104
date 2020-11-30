@@ -1,0 +1,132 @@
+
+body{
+    padding: 0;
+    margin: 0;
+    font-family: Montserrat,Philosopher,Roboto;
+    
+}
+.prodect-bg-1{
+    background-image: url(img/man1.jpg);
+}.prodect-bg-2{
+    background-image: url(img/man2.jpg);
+}.prodect-bg-3{
+    background-image: url(img/How%20To%20Style%20Casual%20Outfit%20For%20Guys%20Like%20A%20Pro!%20-%20Nas%20Kobby%20Studios.jpg);
+}.prodect-bg-4{
+    background-image: url(img/5%20Smart%20Formal%20Outfits%20For%20Men.jpg);
+}
+
+
+/*========================   Nav manu ==================*/
+
+.section-padding {
+  padding: 70px 0;
+}
+.section-tittle {
+  text-align: center;
+  margin-bottom: 50px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.prodect-box-bg {
+  background-size: cover;
+  background-position: center top;
+  background-color: #ddd;
+  height: 320px;
+  position: relative;
+  z-index: 1;
+}
+.ticker {
+  position: absolute;
+  right: 15px;
+  top: 15px;
+  background: #000;
+  color: #fff;
+  height: 40px;
+  width: 40px;
+  font-size: 12px;
+  line-height: 40px;
+  text-align: center;
+  border-radius: 50%;
+}
+.ticker-green {
+  background: #f55151;
+}
+
+.prodect-bottom-hover {
+  position: absolute;
+  left: 50%;
+  width: 200px;
+  margin-left: -100px;
+  bottom: -21px;
+  background: #fff;
+  border-bottom: 1px solid#ddd;
+  border-right: 1px solid#ddd;
+  opacity: 0;
+  visibility: hidden;
+  transition: .3s;
+}
+.prodect-bottom-hover a {
+  display: block;
+  float: left;
+  width: 33.3333%;
+  text-align: center;
+  color: #333;
+  border-left: 1px solid #ededed;
+  border-top: 1px solid #ededed;
+  padding: 12px;
+  transition: .2s;
+}
+.prodect-bottom-hover a:hover {
+  background: #333;
+  color: #fff;
+}
+.single-prodect-box {
+  text-align: center;
+}
+.single-prodect-box h4 {
+  font-size: 17px;
+  margin-bottom: 10px;
+  font-weight: 400;
+}
+.prodect-price {
+  font-weight: 700;
+  margin: 0;
+  font-size: 110%;
+}
+.single-prodect-box:hover .prodect-bottom-hover {
+  opacity: 1;
+  visibility: visible;
+  bottom: 20px;
+}
+.prodect-carousel .owl-nav .owl-prev {
+	left: -17px;
+	top: 50%;
+	margin-top: -36.5px;
+	position: absolute;
+	height: 30px;
+	width: 30px;
+	background-color: #333;
+	font-size: 14px;
+	line-height: 22px;
+	border-radius: 50%;
+	text-align: center;
+	color: #fff;
+}.prodect-carousel .owl-nav .owl-next {
+	left: auto;
+	right: -17px;
+	margin-top: -36.5px;
+	position: absolute;
+	height: 30px;
+	width: 30px;
+	background-color: #333;
+	font-size: 14px;
+	line-height: 22px;
+	border-radius: 50%;
+	text-align: center;
+	color: #fff;
+    top: 50%;
+}
+
+
+
+
